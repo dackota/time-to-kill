@@ -1,4 +1,7 @@
 # Time To Kill
+Displays estimated time until your target dies using linear regression
+
+
 Use `/ttk` for display options:
 ```
 /ttk show - Always show the frame

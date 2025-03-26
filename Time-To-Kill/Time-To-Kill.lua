@@ -197,14 +197,14 @@ SlashCmdList["TIMETOKILL"] = function(msg)
         TimeToKillDB.alwaysShow = not (TimeToKillDB.alwaysShow or false)
         if TimeToKillDB.alwaysShow then
             TimeToKillFrame:Show()
-            print("TimeToKill: Frame always shown")
+            print("Time-To-Kill: Frame always shown")
         else
             UpdateFrameVisibility()
-            print("TimeToKill: Frame hidden outside of combat")
+            print("Time-To-Kill: Frame hidden outside of combat")
         end
     else
         -- Show help text
-        print("TimeToKill commands:")
+        print("Time-To-Kill commands:")
         print("  /ttk show - Always show the frame")
         print("  /ttk hide - Only show the frame in combat")
         print("  /ttk toggle - Toggle between always show and combat-only")
@@ -220,7 +220,7 @@ frame:SetScript("OnEvent", function(self, event, arg1)
         if arg1 == "target" then
             AddDataPoint()
         end
-    elseif event == "ADDON_LOADED" and arg1 == "TimeToKill" then
+    elseif event == "ADDON_LOADED" and arg1 == "Time-To-Kill" then
         -- Set up the movable frame when the addon is fully loaded
         SetupMovableFrame()
     elseif event == "PLAYER_REGEN_DISABLED" then

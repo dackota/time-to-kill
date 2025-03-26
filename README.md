@@ -1,4 +1,4 @@
-# TimeToKill
+# Time-To-Kill
 Lightweight addon that displays the estimated time until your target dies using linear regression
 
 

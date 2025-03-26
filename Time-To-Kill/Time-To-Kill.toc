@@ -1,10 +1,10 @@
 ## Interface: 11506
-## Title: TimeToKill
+## Title: Time-To-Kill
 ## Notes: Displays estimated time until your target dies using linear regression
 ## Author: dackota
 ## Version: 1.0.0
 ## SavedVariables: TimeToKillDB
 ## X-Curse-Project-ID:
 
-TimeToKill.lua
-TimeToKill.xml
+Time-To-Kill.lua
+Time-To-Kill.xml

@@ -1,5 +1,5 @@
 ## Interface: 11506
-## Title: Time To Kill
+## Title: TimeToKill
 ## Notes: Displays estimated time until your target dies using linear regression
 ## Author: dackota
 ## Version: 1.0.0

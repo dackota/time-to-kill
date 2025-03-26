@@ -4,7 +4,7 @@
 ## Author: dackota
 ## Version: 1.0.0
 ## SavedVariables: TimeToKillDB
-## X-Curse-Project-ID:
+## X-Curse-Project-ID: 1229012
 
 Time-To-Kill.lua
 Time-To-Kill.xml
